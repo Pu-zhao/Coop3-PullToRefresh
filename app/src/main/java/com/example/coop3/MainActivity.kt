@@ -149,7 +149,7 @@ fun ItemCard(item: Item) {
             Surface(
                 modifier = Modifier.fillMaxWidth(),
                 color = MaterialTheme.colorScheme.surface,
-                shape = RectangleShape // This removes rounded corners
+                shape = RectangleShape 
             ) {
                 Column(
                     modifier = Modifier.padding(16.dp)
